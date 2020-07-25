@@ -1,0 +1,59 @@
+body{
+    background-image: url("back.jpg");
+    color: white;
+}
+div
+{
+    text-align: center;
+}
+#inp1{
+    border-radius: 5px;
+    width: 200px;
+    margin-right: 5px;
+}
+.add,.del{
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    font-size: 14px;
+}
+ul{
+    margin-left: 450px;
+}
+#li1{
+    list-style-type: square;
+    border-bottom: 2px solid palegoldenrod;
+    padding: 0 0 4px;
+    width: 385px;
+    padding-left: 0px;
+    text-align: start;
+}
+#delete{
+    width: 40px;
+    height: 22px;
+    margin-left: 10px;  
+    margin-right: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    font-size: 14px;
+}
+#edit{
+    height: 22px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    font-size: 14px;
+}
+.fa-trash,.fa-plus-circle{
+    padding-right: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    ul{
+        margin-left:15px;
+    }
+    #li1{
+        width: 200px;
+    }
+  }
